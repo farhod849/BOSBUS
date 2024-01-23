@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
     fun onClick(v: View?) {
         val intent = Intent(
             applicationContext,
-            RaspisanieActivity::class.java
+            MapActivity::class.java
         )
         startActivity(intent)
     }
